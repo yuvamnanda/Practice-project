@@ -1,0 +1,73 @@
+.h-primary {
+    padding: 19px;
+    font-size: 21px;
+}
+
+/* Navigation */
+#navbar{
+    flex-direction: column;
+    align-items: center;
+}
+#navbar ul li a{ 
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 1px 6px;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Home */
+#HOME{
+    height: 215px;
+    padding: 30px 12px;
+}
+
+#HOME::before{
+    height: 353px;
+}
+
+#HOME p{
+    font-size: 15px;
+}
+/* section */
+
+/* services */
+#services{
+    flex-direction: column;
+}
+
+
+#services .box img {
+    width: 67%;
+    height: 256px;
+}
+/* client */
+
+#Clients{
+    flex-wrap: wrap;
+}
+.Client-items {
+    padding: 8px;
+}
+
+#Clients img{
+    width: 105px;
+        height: 78px;
+    }
+#Clients .steakhouse img {
+   
+        height: 156px;
+        width: 156px;
+    }
+
+
+/* contact */
+
+
+/* btn */
+.Ordernow{
+    font-size: 14px;
+        margin: 14px;
+        font-weight: 400;
+    
+}
